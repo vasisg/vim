@@ -1,0 +1,19 @@
+colorscheme ir_black
+
+:set guioptions-=m  "remove menu bar
+:set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guioptions-=L  "remove left-hand scroll bar
+
+"Start always in maximize mode
+au GUIEnter * simalt ~x
+
+"Set font size
+if has('gui_running')
+  set guifont=Consolas:h11
+endif
+
+"Change the cursor colors to red and green
+au InsertLeave * hi Cursor guibg=red
+au InsertEnter * hi Cursor guibg=green
+
