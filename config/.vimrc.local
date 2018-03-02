@@ -17,3 +17,11 @@ endif
 au InsertLeave * hi Cursor guibg=red
 au InsertEnter * hi Cursor guibg=green
 
+"Disable spell check
+set nospell
+
+"Hide hidden characters
+set nolist
+
+
+
