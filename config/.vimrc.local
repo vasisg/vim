@@ -23,5 +23,9 @@ set nospell
 "Hide hidden characters
 set nolist
 
+"Set Wrap
+set wrap
 
+" Press F12 to switch to UTF-8 encoding
+nnoremap <F12> :e ++enc=utf-8<CR>
 
